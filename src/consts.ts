@@ -6,4 +6,4 @@ export const SITE_TITLE = "Kuroko";
 export const SITE_DESCRIPTION =
   "Engineering Tech Blog";
 
-export const EMAIL = "";
+export const EMAIL = "rfernandomartinez@gmail.com";
