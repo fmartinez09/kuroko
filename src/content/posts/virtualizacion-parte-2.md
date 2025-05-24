@@ -55,3 +55,7 @@ Esto abre la puerta a:
 El mundo Windows contenedorizado con GPU-PV aún no está completo.
 
 _Fernando Martínez – Infraestructura, virtualización y sistemas distribuidos_
+
+Ahora, hablemos de VMXON
+
+[Implementación de VMX](https://web.archive.org/web/20250523204652/https://revers.engineering/day-2-entering-vmx-operation/)
