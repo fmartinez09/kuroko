@@ -1,7 +1,7 @@
 ---
 title: "Por qué VMware y Hyper-V no pueden coexistir cuando se requiere nested virtualization"
 description: ""
-date: "May 23, 2025"
+date: "May 25, 2025"
 ---
 
 # Por qué VMware y Hyper-V no pueden coexistir cuando se requiere nested virtualization
