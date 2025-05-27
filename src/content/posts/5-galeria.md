@@ -309,13 +309,13 @@ python process_photos.py C:/Users/rferm/Downloads/kai/kai
 
 Algunas imágenes de digitalocean y pycharm, porque no agregué prometheus ni grafana.
 
-![blog placeholder](/public/static/loading1.png)
+![blog placeholder](/static/loading1.png)
 
-![blog placeholder](/public/static/loading2.png)
+![blog placeholder](/static/loading2.png)
 
-![blog placeholder](/public/static/loading3.png)
+![blog placeholder](/static/loading3.png)
 
-![blog placeholder](/public/static/loading4.png)
+![blog placeholder](/static/loading4.png)
 
 Este pipeline lleva los .jpg, .jpeg, .png, .heic y .mp4 al clúster.
 
