@@ -2,6 +2,7 @@
 title: "Parte 2: Virtualización anidada y el origen de Hyper-V vs KVM"
 description: ""
 date: "May 23, 2025"
+weight: 2
 ---
 
 Con el lanzamiento de [Windows Server 2025](https://techcommunity.microsoft.com/blog/windowsosplatform/introducing-gpu-innovations-with-windows-server-2025/4161879), Microsoft reforzó su apuesta por la virtualización moderna, incluyendo soporte oficial para GPU Partitioning (GPU-PV), migración en vivo de VMs con GPU y nuevas capacidades para clústeres sin Active Directory. Sin embargo, hay un área crítica que sigue sin resolverse: los contenedores con aislamiento Hyper-V (Hyper-V Windows Containers) aún no pueden usar GPU-PV.

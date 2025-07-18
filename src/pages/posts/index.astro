@@ -4,15 +4,17 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../../consts";
 import Layout from "../../layouts/Layout.astro";
 import { formatDate } from "../../lib/utils";
 
-const collection = await getCollection("posts");
-const posts = collection.sort(
-  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
-);
+// Obtener y ordenar los posts por fecha y luego por weight
+const posts = (await getCollection("posts")).sort((a, b) => {
+  const dateDiff = b.data.date.valueOf() - a.data.date.valueOf();
+  if (dateDiff !== 0) return dateDiff;
+  return (a.data.weight ?? 0) - (b.data.weight ?? 0);
+});
 ---
 
 <Layout title={SITE_TITLE} description={SITE_DESCRIPTION}>
   <main>
-    <ul class="flex flex-col gap-1.5">
+    <ul class="flex flex-col gap-4">
       {
         posts.map((post) => (
           <li>

@@ -2,6 +2,7 @@
 title: "Parte 1: Arquitectura comparativa de Nested Virtualization en Hyper-V, KVM y VMware"
 description: ""
 date: "May 23, 2025"
+weight: 3
 ---
 
 ¿Por qué Docker Desktop sí puede coexistir con Hyper-V y WSL2, pero VMware no?
