@@ -1,3 +1,9 @@
+---
+title: "FDB + MinIO: Metadatos (Java)"
+description: ""
+date: "Sep 29, 2025"
+---
+
 # FDB + MinIO: Metadatos (Java)
 
 Crearemos un pequeño servicio HTTP que registre y consulte metadatos de blobs almacenados en MinIO. Los bytes estarán en MinIO; FoundationDB guardará el *catálogo de metadatos* (owner/tenant, bucket, object key, size, hash, timestamps, tags, etc.).
